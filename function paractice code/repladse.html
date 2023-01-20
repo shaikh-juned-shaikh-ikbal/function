@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>This is raples</h1>
+    <div id="demo">Please visit Microsoft!</div>
+    <button onclick="myFuntion()">click here</button>
+</body>
+<script>
+    function myFuntion() {
+        let text = document.getElementById("demo").innerHTML;
+        document.getElementById("demo").innerHTML =
+            text.replace("Microsoft", "shaikh juned");
+
+    }
+</script>
+
+</html>
